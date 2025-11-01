@@ -4,6 +4,9 @@
     <test verbose="2" preserve-order="true" name="C:/Users/DELL/IdeaProjects/AutomatedUITestingPrograms_New">
         <classes>
             <class name="org.example.tests.PageObjectModel.VWO.TestVWOLogin_01_NormalScript_POM">
+                <methods>
+                    <include name="test_POSITIVE_vwo_login"></include>
+                </methods>
             </class>
         </classes>
     </test>
