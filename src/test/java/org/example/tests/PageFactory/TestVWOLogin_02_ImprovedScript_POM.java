@@ -1,4 +1,4 @@
-package org.example.tests.PageObjectModel.VWO;
+package org.example.tests.PageFactory;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
