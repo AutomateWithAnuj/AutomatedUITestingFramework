@@ -1,10 +1,9 @@
-package org.example.pages.PageObjectModelTests;
+package org.example.pages.PageObjectModel.Normal_POM;
 
 import org.example.utils.PropertiesReader;
 import org.example.utils.WaitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 // Page Class
 public class LoginPage {
@@ -40,5 +39,7 @@ public class LoginPage {
         driver.findElement(loginButton).click();
 
         WaitHelpers.waitJVM(3000);
+
+        ;
     }
 }

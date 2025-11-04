@@ -1,4 +1,4 @@
-package org.example.pages.PageObjectModelTests;
+package org.example.pages.PageObjectModel.Normal_POM;
 
 import org.example.utils.WaitHelpers;
 import org.openqa.selenium.By;
@@ -10,10 +10,10 @@ public class DashboardPage {
     public DashboardPage(WebDriver driver) {
         this.driver = driver;
     }
-    private By userNameOnDashboard = By.xpath("//*[@data-qa='cotirufajo']");
+    private By TextOnDashboard = By.xpath("//*[@data-qa='cotirufajo']");
     //Page Actions
     public String loggedInText(){
         WaitHelpers.waitJVM(10000);
-        return driver.findElement(userNameOnDashboard).getText();
+        return driver.findElement(TextOnDashboard).getText();
     }
 }
