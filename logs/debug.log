@@ -1,0 +1,10 @@
+2025-11-04 18:26:41,131 [main] INFO  org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Starting the Testcases Page Factory
+2025-11-04 18:26:52,716 [main] INFO  org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Error msg I got Your email, password, IP address or location did not match
+2025-11-04 18:26:52,718 [main] INFO  org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Finished the Testcases Page Factory
+2025-11-04 18:26:52,718 [main] ERROR org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Finished the Testcases Page Factory
+2025-11-04 18:26:52,718 [main] FATAL org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Fatal error - code is dead!
+2025-11-04 18:36:13,626 [main] INFO  org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Starting the Testcases Page Factory
+2025-11-04 18:36:26,565 [main] INFO  org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Error msg I got Your email, password, IP address or location did not match
+2025-11-04 18:36:26,572 [main] INFO  org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Finished the Testcases Page Factory
+2025-11-04 18:36:26,582 [main] ERROR org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Finished the Testcases Page Factory
+2025-11-04 18:36:26,590 [main] FATAL org.example.tests.PageObjectModel.VWO.TestVWOLogin_PF_WithLog4j - Fatal error - code is dead!

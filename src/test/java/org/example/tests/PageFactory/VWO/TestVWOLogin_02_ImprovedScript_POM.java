@@ -1,7 +1,8 @@
-package org.example.tests.PageFactory;
+package org.example.tests.PageFactory.VWO;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
+import org.apache.logging.log4j.LogManager;
 import org.example.base.CommonToAllTest;
 import org.example.driver.DriverManager;
 import org.example.pages.PageObjectModel.Improved_POM.DashboardPage;
@@ -11,9 +12,11 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class TestVWOLogin_02_ImprovedScript_POM extends CommonToAllTest {
+
     @Description("Verify that with invalid email, pass, error message is shown on the page")
     @Test
     public void test_NEGATIVE_vwo_login() {

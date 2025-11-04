@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverManager {
 
-    private static WebDriver driver;
+    public static WebDriver driver;
 
     public static WebDriver getDriver() {
         return driver;

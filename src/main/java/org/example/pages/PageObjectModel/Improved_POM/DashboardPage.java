@@ -17,7 +17,7 @@ public class DashboardPage extends CommonToAllPage {
     private By TextOnDashboard = By.xpath("//*[@data-qa='cotirufajo']");
     //Page Actions
     public String loggedInText(){
-        WaitHelpers.waitJVM(10000);
+        WaitHelpers.waitJVM(20000);
         return getText(TextOnDashboard);
     }
 }
