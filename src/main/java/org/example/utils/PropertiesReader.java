@@ -11,7 +11,7 @@ public class PropertiesReader {
         Properties p = new Properties();
         try {
             FileInputStream fis = new FileInputStream(System.getProperty("user.dir") +
-                    "\\src\\main\\resources\\data.properties");
+                    "\src\main\resources\data.properties");
             p.load(fis);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
