@@ -1,28 +1,23 @@
 package org.example.utils;
 
-import java.io.InputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesReader {
 
     public static String readKey(String key) {
+        Properties p = new Properties();
         try {
-            Properties properties = new Properties();
-            InputStream inputStream = PropertiesReader.class.getClassLoader()
-                    .getResourceAsStream("data.properties");
-            
-            if (inputStream == null) {
-                throw new RuntimeException("data.properties not found in classpath");
-            }
-            
-            properties.load(inputStream);
-            String value = properties.getProperty(key);
-            if (value == null) {
-                throw new RuntimeException("Property '" + key + "' not found in data.properties");
-            }
-            return value;
-        } catch (Exception e) {
-            throw new RuntimeException("Error reading property '" + key + "': " + e.getMessage(), e);
+            FileInputStream fis = new FileInputStream(System.getProperty("user.dir") +
+                    "/src/main/resources/data.properties");
+            p.load(fis);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
+        return p.getProperty(key);
     }
 }
