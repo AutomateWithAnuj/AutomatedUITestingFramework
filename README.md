@@ -15,6 +15,9 @@ A robust and scalable Selenium Automation Framework built using **Java**, **Sele
 
 ---
 
+<img width="2048" height="1176" alt="image" src="https://github.com/user-attachments/assets/f5b05f28-0433-46ff-bda1-dd6047163a2d" />
+
+
 ## ⚙️ Key Features
 
 - **TestNG Integration:**  
@@ -64,6 +67,9 @@ A robust and scalable Selenium Automation Framework built using **Java**, **Sele
 | **Java Properties File** | Environment and credential configuration |
 
 ---
+
+<img width="2430" height="1162" alt="image" src="https://github.com/user-attachments/assets/1bc4aa73-0e91-4af3-8431-a23298aba25c" />
+
 
 <pre>
 ```text
