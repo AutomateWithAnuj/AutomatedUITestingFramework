@@ -99,10 +99,3 @@ selenium-automation-framework/
 └── .gitignore                          # Git ignored files and folders
 ```
 </pre>
-
-
-## 🧪 How to Run Tests
-
-### ✅ Run Tests Locally
-```bash
-mvn test -Dsurefire.suiteXmlFiles=testng.xml
